@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>影片搜索 - 高分电影排行榜-精选影片片单-热门片库持续更新</title>
+  <meta name="description" content="搜索高分电影、精选片单、热门片库和口碑影片。">
+  <meta name="keywords" content="影片搜索,高分电影排行榜,高分电影,精选片单,热门片库,口碑影片,电影榜单">
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="./index.html" aria-label="高分电影榜">
+      <span class="brand-mark">榜</span>
+      <span class="brand-copy">
+        <strong>高分电影榜</strong>
+        <em>精选影片片单</em>
+      </span>
+    </a>
+    <nav class="desktop-nav">
+      <a class="" href="./index.html">首页</a> <a class="" href="./rank.html">排行榜</a> <a class="" href="./category-high-score-movies.html">高分电影</a> <a class="" href="./category-hot-library.html">热门片库</a> <a class="active" href="./search.html">搜索</a>
+    </nav>
+    <form class="top-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、类型、地区" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="打开导航" data-menu-toggle>☰</button>
+  </div>
+  <div class="mobile-panel" data-mobile-panel>
+    <form action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <nav>
+      <a class="" href="./index.html">首页</a> <a class="" href="./rank.html">排行榜</a> <a class="" href="./category-high-score-movies.html">高分电影</a> <a class="" href="./category-hot-library.html">热门片库</a> <a class="active" href="./search.html">搜索</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-hero search-hero">
+    <div>
+      <span class="section-kicker">Search</span>
+      <h1>影片搜索</h1>
+      <p>输入影片名、地区、年份、类型或标签，快速找到对应片单。</p>
+    </div>
+    <form class="search-panel" action="./search.html" method="get" data-search-form>
+      <input id="search-input" type="search" name="q" placeholder="输入关键词" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+  </section>
+  <section class="section">
+    <div class="section-head">
+      <div>
+        <span class="section-kicker">Results</span>
+        <h2 data-search-title>推荐内容</h2>
+      </div>
+      <a href="./rank.html">浏览排行榜</a>
+    </div>
+    <div class="movie-grid cards-five" data-search-results>
+      
+<article class="movie-card" data-title="三嫁惹君心" data-year="2025" data-region="中国" data-genre="古装、爱情、喜剧">
+  <a class="poster-link" href="./movie-0001.html" aria-label="三嫁惹君心">
+    <span class="poster-frame">
+      <img src="./1.jpg" alt="三嫁惹君心" loading="lazy">
+      
+      <span class="poster-year">2025</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0001.html">三嫁惹君心</a>
+    <p>精明女掌柜为救家族产业,不得不三次嫁给同一个“废柴”世子爷。</p>
+    <div class="card-tags"><span>先婚后爱</span><span>欢喜冤家</span><span>中医</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="明日传奇第五季" data-year="2025" data-region="美国" data-genre="科幻/冒险">
+  <a class="poster-link" href="./movie-0002.html" aria-label="明日传奇第五季">
+    <span class="poster-frame">
+      <img src="./2.jpg" alt="明日传奇第五季" loading="lazy">
+      
+      <span class="poster-year">2025</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0002.html">明日传奇第五季</a>
+    <p>当时间线被彻底打碎,这支不成器的英雄队伍必须进入“时间之外”的虚无,阻止末日降临。</p>
+    <div class="card-tags"><span>时间旅行</span><span>超级英雄</span><span>团队</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="外出用餐3:天菜吃到饱" data-year="2025" data-region="中国台湾" data-genre="爱情,喜剧,同性">
+  <a class="poster-link" href="./movie-0003.html" aria-label="外出用餐3:天菜吃到饱">
+    <span class="poster-frame">
+      <img src="./3.jpg" alt="外出用餐3:天菜吃到饱" loading="lazy">
+      
+      <span class="poster-year">2025</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0003.html">外出用餐3:天菜吃到饱</a>
+    <p>一位恐婚的美食博主与一位相信真爱的厨师打赌,要在三个月内吃遍全城“天菜”,却发现心动无法用卡路里计算。</p>
+    <div class="card-tags"><span>约会文化</span><span>自我认同</span><span>美食隐喻</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="我们的故事未完待续" data-year="2025" data-region="中国台湾" data-genre="爱情,剧情">
+  <a class="poster-link" href="./movie-0004.html" aria-label="我们的故事未完待续">
+    <span class="poster-frame">
+      <img src="./4.jpg" alt="我们的故事未完待续" loading="lazy">
+      
+      <span class="poster-year">2025</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0004.html">我们的故事未完待续</a>
+    <p>三十岁的婚礼策划师接到了一单业务,新郎竟是她高中时暗恋却突然消失的学长。</p>
+    <div class="card-tags"><span>青春遗憾</span><span>时空交错</span><span>二次初恋</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="牵牛的夏天" data-year="2024" data-region="中国内地" data-genre="都市/家庭/治愈">
+  <a class="poster-link" href="./movie-0005.html" aria-label="牵牛的夏天">
+    <span class="poster-frame">
+      <img src="./5.jpg" alt="牵牛的夏天" loading="lazy">
+      
+      <span class="poster-year">2024</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0005.html">牵牛的夏天</a>
+    <p>被裁员的女程序员回村接手爷爷的花田,却发现唯一的“员工”是一头会挑种子的倔牛。</p>
+    <div class="card-tags"><span>园艺</span><span>返乡</span><span>代际和解</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="犯罪现场:真相死亡第一" data-year="2024" data-region="中国香港" data-genre="悬疑,犯罪">
+  <a class="poster-link" href="./movie-0006.html" aria-label="犯罪现场:真相死亡第一">
+    <span class="poster-frame">
+      <img src="./6.jpg" alt="犯罪现场:真相死亡第一" loading="lazy">
+      
+      <span class="poster-year">2024</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0006.html">犯罪现场:真相死亡第一</a>
+    <p>法医在连环杀人案现场发现,所有受害者死亡时间都标记着“第一”。</p>
+    <div class="card-tags"><span>法医</span><span>密室杀人</span><span>反转</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="不死者之王第三季" data-year="2026" data-region="日本" data-genre="奇幻战斗">
+  <a class="poster-link" href="./movie-0007.html" aria-label="不死者之王第三季">
+    <span class="poster-frame">
+      <img src="./7.jpg" alt="不死者之王第三季" loading="lazy">
+      
+      <span class="poster-year">2026</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0007.html">不死者之王第三季</a>
+    <p>安兹亲自下场屠龙夺城,却在胜利前夕发现臣民中混入了另一位玩家。</p>
+    <div class="card-tags"><span>异世界</span><span>骨王归来</span><span>建国大业</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="金色时光" data-year="2023" data-region="日本" data-genre="动画/爱情/校园">
+  <a class="poster-link" href="./movie-0008.html" aria-label="金色时光">
+    <span class="poster-frame">
+      <img src="./8.jpg" alt="金色时光" loading="lazy">
+      
+      <span class="poster-year">2023</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0008.html">金色时光</a>
+    <p>考上东京大学的乡下男孩,在迎新会上对一位优雅大小姐一见钟情。</p>
+    <div class="card-tags"><span>大学恋爱</span><span>失忆</span><span>青春</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="冰上情缘2" data-year="2024" data-region="中国大陆" data-genre="运动/爱情">
+  <a class="poster-link" href="./movie-0009.html" aria-label="冰上情缘2">
+    <span class="poster-frame">
+      <img src="./9.jpg" alt="冰上情缘2" loading="lazy">
+      
+      <span class="poster-year">2024</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0009.html">冰上情缘2</a>
+    <p>曾经的冰上金童玉女因伤拆档五年后,在退役边缘重组,目标是最后一块国际赛金牌。</p>
+    <div class="card-tags"><span>花样滑冰</span><span>双人滑</span><span>伤病复出</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="青空呐喊" data-year="2016" data-region="日本" data-genre="青春/校园/励志">
+  <a class="poster-link" href="./movie-0010.html" aria-label="青空呐喊">
+    <span class="poster-frame">
+      <img src="./10.jpg" alt="青空呐喊" loading="lazy">
+      
+      <span class="poster-year">2016</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0010.html">青空呐喊</a>
+    <p>管乐队的废柴少女与棒球队的王牌约定:你带我去甲子园,我给你吹响胜利的号角。</p>
+    <div class="card-tags"><span>棒球</span><span>吹奏乐</span><span>甲子园</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="无所畏惧" data-year="2024" data-region="中国大陆" data-genre="悬疑/犯罪">
+  <a class="poster-link" href="./movie-0011.html" aria-label="无所畏惧">
+    <span class="poster-frame">
+      <img src="./11.jpg" alt="无所畏惧" loading="lazy">
+      
+      <span class="poster-year">2024</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0011.html">无所畏惧</a>
+    <p>金牌律师温宁接手性侵案后发现,被告是当年性侵自己母亲的同一个人。</p>
+    <div class="card-tags"><span>女律师</span><span>职场暗战</span><span>高能反转</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="活动写真" data-year="2027" data-region="日本" data-genre="剧情/家庭/历史">
+  <a class="poster-link" href="./movie-0012.html" aria-label="活动写真">
+    <span class="poster-frame">
+      <img src="./12.jpg" alt="活动写真" loading="lazy">
+      
+      <span class="poster-year">2027</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0012.html">活动写真</a>
+    <p>昭和初年,一个即将倒闭的默片电影院,最后的放映员和“辩士”决定用一场“假直播”拯救它。</p>
+    <div class="card-tags"><span>默片时代</span><span>辩士</span><span>电影院</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="旧金山英雄传" data-year="1988" data-region="美国" data-genre="动作/犯罪/惊悚">
+  <a class="poster-link" href="./movie-0013.html" aria-label="旧金山英雄传">
+    <span class="poster-frame">
+      <img src="./13.jpg" alt="旧金山英雄传" loading="lazy">
+      
+      <span class="poster-year">1988</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0013.html">旧金山英雄传</a>
+    <p>唐人街最后的武术宗师,为救养女单枪匹马对抗三合会与腐败警长。</p>
+    <div class="card-tags"><span>唐人街</span><span>复仇</span><span>黑帮火并</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="一个人的冬天" data-year="2023" data-region="中国大陆" data-genre="剧情/生存">
+  <a class="poster-link" href="./movie-0014.html" aria-label="一个人的冬天">
+    <span class="poster-frame">
+      <img src="./14.jpg" alt="一个人的冬天" loading="lazy">
+      
+      <span class="poster-year">2023</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0014.html">一个人的冬天</a>
+    <p>长白山脚下,一个固执的空巢老人在零下三十度的冬天拒绝搬去城里,独自守护着老伴的坟和即将消失的村庄。</p>
+    <div class="card-tags"><span>东北</span><span>留守</span><span>老人</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="造梦之家" data-year="2024" data-region="韩国" data-genre="奇幻/温情/治愈">
+  <a class="poster-link" href="./movie-0015.html" aria-label="造梦之家">
+    <span class="poster-frame">
+      <img src="./15.jpg" alt="造梦之家" loading="lazy">
+      
+      <span class="poster-year">2024</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0015.html">造梦之家</a>
+    <p>一家神秘的工作室,能让临终之人在最后八小时里,住进自己最想重温的那一天的梦境。</p>
+    <div class="card-tags"><span>梦境共享</span><span>临终关怀</span><span>催泪向</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="格林白雪公主" data-year="2025" data-region="德国" data-genre="黑暗奇幻/恐怖">
+  <a class="poster-link" href="./movie-0016.html" aria-label="格林白雪公主">
+    <span class="poster-frame">
+      <img src="./16.jpg" alt="格林白雪公主" loading="lazy">
+      
+      <span class="poster-year">2025</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0016.html">格林白雪公主</a>
+    <p>严格还原格林童话初版:生母追杀女儿、会说话的骨头、烧红的铁鞋——没有王子拯救。</p>
+    <div class="card-tags"><span>黑童话</span><span>原著还原</span><span>心理惊悚</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="再生杀手" data-year="2025" data-region="韩国" data-genre="科幻/惊悚/动作">
+  <a class="poster-link" href="./movie-0017.html" aria-label="再生杀手">
+    <span class="poster-frame">
+      <img src="./17.jpg" alt="再生杀手" loading="lazy">
+      
+      <span class="poster-year">2025</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0017.html">再生杀手</a>
+    <p>特工死后被克隆复活,却发现自己每次重生都在追杀上一代的自己。</p>
+    <div class="card-tags"><span>轮回</span><span>克隆</span><span>追杀</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="头山" data-year="2023" data-region="日本" data-genre="动画,奇幻,剧情">
+  <a class="poster-link" href="./movie-0018.html" aria-label="头山">
+    <span class="poster-frame">
+      <img src="./18.jpg" alt="头山" loading="lazy">
+      
+      <span class="poster-year">2023</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0018.html">头山</a>
+    <p>一个爱占便宜的上班族,头上长出了一座会喷发熔岩的微型火山。</p>
+    <div class="card-tags"><span>另类</span><span>寓言</span><span>成人动画</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="偷情日记" data-year="2025" data-region="中国" data-genre="剧情,爱情,悬疑">
+  <a class="poster-link" href="./movie-0019.html" aria-label="偷情日记">
+    <span class="poster-frame">
+      <img src="./19.jpg" alt="偷情日记" loading="lazy">
+      
+      <span class="poster-year">2025</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0019.html">偷情日记</a>
+    <p>一本记录婚外情的日记丢失后,女主角发现日记内容竟开始自动篡改现实。</p>
+    <div class="card-tags"><span>出轨</span><span>日记</span><span>反转</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="红鼻子驯鹿鲁道夫" data-year="2024" data-region="美国" data-genre="动画/家庭">
+  <a class="poster-link" href="./movie-0020.html" aria-label="红鼻子驯鹿鲁道夫">
+    <span class="poster-frame">
+      <img src="./20.jpg" alt="红鼻子驯鹿鲁道夫" loading="lazy">
+      
+      <span class="poster-year">2024</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <a class="card-title" href="./movie-0020.html">红鼻子驯鹿鲁道夫</a>
+    <p>鲁道夫因为发光红鼻子被嘲笑,离家出走后加入一个“驯鹿失败者联盟”,却发现圣诞老人需要他们。</p>
+    <div class="card-tags"><span>圣诞</span><span>另类英雄</span><span>自我认同</span></div>
+  </div>
+</article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <h2>高分电影榜</h2>
+      <p>高分电影排行榜汇总口碑影片内容，适合按评分、类型和地区查看。</p>
+    </div>
+    <div>
+      <h3>片库导航</h3>
+      <div class="footer-links">
+        <a href="./index.html">首页</a>
+        <a href="./rank.html">排行榜</a>
+        <a href="./search.html">搜索</a>
+        <a href="./about.html">关于</a>
+      </div>
+    </div>
+    <div>
+      <h3>热门分类</h3>
+      <div class="footer-links">
+        <a href="./category-high-score-movies.html">高分电影</a><a href="./category-hot-library.html">热门片库</a><a href="./category-selected-playlist.html">精选片单</a><a href="./category-new-releases.html">新片速递</a><a href="./category-chinese-cinema.html">华语佳作</a><a href="./category-global-cinema.html">海外佳片</a><a href="./category-drama-series.html">剧集专区</a><a href="./category-animation-variety.html">动画综艺</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 高分电影榜. 保留所有权利。</div>
+</footer>
+
+<script src="./assets/app.js" defer></script>
+<script src="./assets/search-data.js" defer></script>
+<script src="./assets/search.js" defer></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

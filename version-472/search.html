@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>影片搜索-亚洲精选视频</title>
+  <meta name="description" content="亚洲精选视频片库搜索，支持按片名、标签、地区和年份筛选。">
+  <meta name="keywords" content="亚洲精选视频,亚洲视频,精选视频,影片片单,热门片库,高分内容">
+  <meta name="applicable-device" content="pc,mobile">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="./index.html" aria-label="亚洲精选视频">
+        <span class="brand-mark"><span></span></span>
+        <span class="brand-name">亚洲精选视频</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="展开导航" data-nav-toggle>☰</button>
+      <nav class="site-nav" data-site-nav>
+        <a class="" href="./index.html">首页</a>
+<a class="" href="./categories.html">分类</a>
+<a class="" href="./rank.html">排行榜</a>
+<a class="active" href="./search.html">搜索</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="search-hero">
+      <h1>影片搜索</h1>
+      <p>输入片名、地区、类型、标签或年份，快速定位片库内容。</p>
+      <form class="search-panel" data-search-page>
+        <input type="search" data-search-input placeholder="搜索影片、标签、地区" aria-label="搜索影片">
+        <select data-search-year aria-label="按年份搜索">
+          <option value="">全部年份</option>
+        </select>
+        <select data-search-region aria-label="按地区搜索">
+          <option value="">全部地区</option>
+        </select>
+        <button class="btn" type="submit">搜索</button>
+      </form>
+    </section>
+
+    <div class="container">
+      <section class="section-block">
+        <div class="section-head">
+  <div>
+    <h2>搜索结果</h2>
+    <p>可继续通过影片卡片进入详情页播放。</p>
+  </div>
+  
+</div>
+        <div class="movie-grid" data-search-grid></div>
+        <div class="empty-state" data-search-empty>没有找到匹配的影片，请调整关键词或筛选条件。</div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <section>
+        <h2>亚洲精选视频</h2>
+        <p>精选亚洲视频内容按地区与类型整理，覆盖热门、高分与经典栏目。</p>
+      </section>
+      <section>
+        <h3>快速入口</h3>
+        <ul>
+          <li><a href="./index.html">首页</a></li>
+          <li><a href="./categories.html">分类总览</a></li>
+          <li><a href="./rank.html">热门排行</a></li>
+          <li><a href="./search.html">影片搜索</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3>精选栏目</h3>
+        <ul>
+          <li><a href="./category-asia-selection.html">亚洲精选</a></li>
+<li><a href="./category-hot-library.html">热门片库</a></li>
+<li><a href="./category-high-score.html">高分推荐</a></li>
+<li><a href="./category-classic-cinema.html">经典重温</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3>片库关键词</h3>
+        <p>亚洲视频、精选视频、热门片库、高分内容、经典栏目。</p>
+      </section>
+    </div>
+    <div class="footer-bottom">© 2026 亚洲精选视频</div>
+  </footer>
+
+  <script src="./assets/js/app.js" defer></script>
+  <script src="./assets/js/search-data.js"></script>
+  <script src="./assets/js/search.js" defer></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
